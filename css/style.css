@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --game-font: 'Press Start 2P', cursive;
+    --gradient: linear-gradient(149deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 83%, rgba(56, 176, 0, 1) 100%);
+}
+
+
+header {
+
+    background: green;
+    background: var(--gradient);
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: .9em;
+
+}
+
+header .nav-link:hover {
+    color: green;
+}
+
+.button1 {
+    padding: 1% 2%;
+    background: rgba(128, 128, 128, 0);
+    color: green;
+    border: 2px solid green;
+    box-shadow: 0 2px 5px green;
+    transition: all .5s;
+}
+
+.button1:hover {
+    color: yellow;
+    border: 2px solid yellow;
+    box-shadow: 0 2px 5px yellow;
+    transform: translateY(-1px);
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--poppins);
+    color: whitesmoke;
+}
+
+header .row .col-md-5 img {
+    width: 80%;
+}
+
+header .container .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+    font-weight: bold;
+}
+
+header .container .col-md-7 p {
+    padding: 1vmin 5vmin;
+}
+
+/* section1 */
+.section-1 {
+    padding: 20vmin 0;
+}
+
+.section-1 .row {
+    border: 1px solid green;
+    box-shadow: 0 1px 5px green;
+    font-family: var(--poppins);
+    transition: all .5s;
+}
+
+.section-1 .col-md-6 .img {
+    border-right: 1px solid green;
+}
+
+.section-1 .col-md-6 h1 {
+    margin-top: 15%;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.section-1 .col-md-6 p {
+    padding: 0 7px;
+}
+
+
+.section-1 .row:hover {
+    border: 1px solid yellow;
+    box-shadow: 0 1px 5px yellow;
+    transform: translateY(-1px);
+}
+
+/* section-2 */
+
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background: url(../assets/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.cover .content {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+
+.cover .content>h1 {
+    font-family: var(--poppins);
+    font-size: 6vmin;
+    font-weight: bold;
+    color: green;
+}
+
+.cover .content>p {
+    font-family: var(--poppins);
+    font-size: 1.5vmin;
+    color: green;
+}
+
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: black;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border: 1px solid green;
+    box-shadow: 0 1px 5px green;
+    transition: all .5s;
+}
+
+.numbers .rect:hover {
+    border: 1px solid yellow;
+    box-shadow: 0 1px 5px yellow;
+    transform: translateY(-1px);
+}
+
+.numbers {
+    margin-top: -15vmin;
+}
+
+.numbers .rect h1 {
+    font-size: 5rem;
+    color: green;
+}
+
+.numbers .rect p {
+    font-family: var(--poppins);
+}
+
+.moto h1 {
+    font-family: var(--game-font);
+    padding-top: 15vmin;
+    padding-left: .1em;
+    color: green;
+}
+
+.moto p {
+    font-family: var(--poppins);
+    font-size: 2vmin;
+    padding-bottom: 10vmin;
+
+}
+
+.card-2 {
+    background-color: white;
+    width: 30rem;
+
+    margin-left: 1%;
+}
+
+.price-card {
+    background-color: black;
+    width: 90%;
+    height: 100%;
+    margin-left: 4%;
+    border: 1px solid green;
+    box-shadow: 0 1px 5px green;
+    margin-top: 5%;
+    transition: all .5s;
+}
+
+.price-card:hover {
+    border: 1px solid yellow;
+    box-shadow: 0 1px 5px yellow;
+    transform: translateY(-1px);
+}
+
+.card-title {
+    padding-top: 5%;
+    font-family: var(--poppins);
+
+}
+
+.card-title .card-text {
+    font-size: larger;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.card-details {
+    padding-top: 3%;
+    font-family: var(--poppins);
+}
+
+.card-price {
+    padding-top: 3%;
+}
+
+.card-price h3 {
+    font-size: xx-large;
+    font-family: var(--poppins);
+}
+
+.buy-button {
+    border: 1px solid orange;
+    padding: 5px 2px;
+    width: 25%;
+    margin-top: 1%;
+    margin-left: 38%;
+    box-shadow: 0 1px 5px orange;
+
+
+}
+
+.buy-button a {
+    color: orange;
+}
+
+/* section-3 */
+.section-3 {
+    height: 70vmin;
+    margin-top: 10vmin;
+    background: var(--gradient);
+}
+
+.section-3 .col-md-12>h1 {
+    padding: 2em 0 .5em 0;
+}
+
+.section-3 .col-md-12>p {
+    padding: .4em;
+    padding-bottom: 2em;
+    font-size: 2vmin;
+}
+
+.section-3 .desktop {
+    background-color: black;
+    display: inline-block;
+    border: 1px solid green;
+    box-shadow: 0 1px 5px green;
+    padding: 2vmin 4.5vmin;
+    color: green;
+}
+
+.section-3 .Browser {
+    background-color: black;
+    display: inline-block;
+    border: 1px solid green;
+    box-shadow: 0 1px 5px green;
+    padding: 2vmin 4.5vmin;
+    color: green;
+}
+
+/* section-4 */
+.section-4 .container h1 {
+    font-size: 6vmin;
+    padding-top: 15vmin;
+    color: green;
+}
+
+.section-4 .row {
+    border: 1px solid green;
+    box-shadow: 0 1px 5px green;
+    transition: all .5s;
+}
+
+.section-4 .row:hover {
+    border: 1px solid yellow;
+    box-shadow: 0 1px 5px yellow;
+}
+
+.section-4 .specific-name {
+
+    font-family: var(--poppins);
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin-top: 5%;
+    color: white;
+}
+
+.explore-button {
+    border: 1px solid rgb(7, 192, 254);
+    box-shadow: 0 1px 5px rgb(7, 192, 254);
+    width: 13%;
+    padding: 5px 2px;
+    margin-left: 44%;
+    margin-top: 4%;
+
+}
+
+.button-text {
+    text-decoration: none;
+    color: rgb(7, 192, 254);
+    font-family: var(--poppins);
+}
+
+.button-text:hover {
+    text-decoration: none;
+    color: rgb(7, 192, 254);
+    font-family: var(--poppins);
+}
+
+.section-4 {
+    margin-bottom: 10%;
+}
+
+/* footer */
+footer {
+    background: var(--gradient);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+    border-top: 1px solid green !important;
+    box-shadow: 0 1px 5px green;
+}
+
+footer input {
+    border-radius: 0 !important;
+    border: 1px solid green !important;
+    background-color: aliceblue !important;
+
+
+}
+
+footer input::placeholder {
+    color: green !important;
+}
+
+.form-control {
+    background-color: rgba(240, 248, 255, 0) !important;
+}
+
+footer .col i {
+    color: green;
+}
+
+footer .col i+i {
+    padding: 0 .5em;
+}
